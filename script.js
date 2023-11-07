@@ -17,7 +17,7 @@ function threeSum(arr, target) {
     }
   }
 
-  console.log(ans);
+  return ans; // Return the closest sum
 }
 
 module.exports = threeSum;
